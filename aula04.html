@@ -9,14 +9,38 @@
 
     <h2>Formulário de Cadastro</h2>
     <hr>
-    
     <form>
-    <input type="text" name="user" placeholder="texto" value="nome do usuário" >
+        <label for="nome">Nome:</label><br>
+        <input type="text"
+        name="user"
+        placeholder="texto"
+        value="Digite seu nome"
+        id="nome"><br><br>
 
+        <label for="meuemail">E-mail:</label><br>
+        <input type="email" name="e-mail" 
+        placeholder="email@empresa.com" 
+        value="" id="meuemail"><br><br>
+
+        <label for="idade">Idade</label><br>
+        <input type="age"
+        name="age" 
+        placeholder="0"
+        id="idade" maxlength="3"><br><br>
+
+        <label for="telefone">Telefone</label><br>
+        <input type="tel"
+        name="phone" 
+        placeholder="(00) 9.9999.9999"
+        id="telefone" maxlength="11"><br><br>
+
+        <label for="pass">Senha:</label><br>
+        <input type="password"
+        name="pass" 
+        placeholder="••••••••••••••"
+        id="pass" maxlength="11"><br><br>
 
     </form>
-
-
 
 </body>
 </html>
